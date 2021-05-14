@@ -1,16 +1,13 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
 
+
 const Header = () => {
     return (
-        <Router>
-            <div>
+        <div>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
@@ -22,20 +19,7 @@ const Header = () => {
                         <Link to="/Contact">Contact</Link>
                     </li>
                 </ul>
-            
-           
-
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/about">
-                    </Route>
-                    <Route path="/contact">
-                    </Route>
-                </Switch>
             </div>
-        </Router>
     );
 }
 
