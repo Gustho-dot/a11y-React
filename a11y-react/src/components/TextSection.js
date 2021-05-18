@@ -3,7 +3,7 @@ import React from 'react';
 const TextSection = (props) => {
     return (
         <section class="textImage">
-            <img src={props.image} alt="computer" class="textImages" />
+            <img src={props.image} class="textImages" />
             <h1>{props.rubrik}</h1>
             <p> The standard Lorem Ipsum passage, used since the 1500s
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
