@@ -1,9 +1,9 @@
 import React from 'react';
-
+import TextSection from '../components/TextSection';
 const About = () => {
     return (
         <div>
-            <h1>About</h1>
+            <TextSection image="./images/eagle.png" rubrik="About us" />
         </div>
     )
 }
