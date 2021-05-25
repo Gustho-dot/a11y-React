@@ -8,7 +8,7 @@ import {
 const Header = () => {
     return (
         <section class="nav-section">
-            <img class="logo" src="./images/logo.png" alt="logo"></img>
+            <img class="logo" src="./images/logo.png"></img>
             <nav class="nav">
                     <ul>
                         <li>

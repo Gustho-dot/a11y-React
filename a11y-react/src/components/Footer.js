@@ -14,9 +14,9 @@ const Footer = () => {
             <h6>All images are from: LogoMakr.com</h6>
             <div class="socialMedia">
                 <h6>Follow us on:</h6>
-                <img src="./images/facebook.png" alt="facebook" class="mediaImage"></img>
-                <img src="./images/twitter.png" alt="twitter" class="mediaImage"></img>
-                <img src="./images/instagram.png" alt="instagram" class="mediaImage"></img>
+                <img src="./images/facebook.png" class="mediaImage"></img>
+                <img src="./images/twitter.png" class="mediaImage"></img>
+                <img src="./images/instagram.png" class="mediaImage"></img>
             </div>
         </section>
     );
